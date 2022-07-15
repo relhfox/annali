@@ -1,3 +1,9 @@
 # Anna Li Art
 
-This is a personal site app of Anna Li artist. Powered by React JS.
+An official website app for artist Anna Li. Powered by React JS.
+
+Live: https://lianna.co.uk/
+
+Optimized for mobile devices.
+
+Uses component react-carousel-minimal by sahilsaha7773.
