@@ -15,14 +15,6 @@ export default function About() {
             </div>
 
             <div className='currpage__head'>
-                <h2>EDUCATION</h2>
-            </div>
-
-            <div className='currpage__body exhibit'>
-                <p>2018 Master, Art & Graphics Faculty, Uman State University, Uman, Ukraine</p>
-            </div>
-
-            <div className='currpage__head'>
                 <h2>ONE PERSON EXHIBITIONS</h2>
             </div>
 
@@ -38,6 +30,8 @@ export default function About() {
             </div>
 
             <div className='currpage__body exhibit'>
+                <p>2023 “Taking Over The High Street”, Gallery Live, Milton Keynes, UK</p>
+                <p>2023 “Peace Hope Ukraine”, MK Central Library, Milton Keynes, UK</p>
                 <p>2022 “The New Artist III”, Boomer Gallery (Tower Bridge), London, UK</p>
                 <p>2022 “Handmaid’s Cracked Mirror”, Art Center “Zverevskiy”, Moscow, Russia</p>
                 <p>2021 “Accomplices”, gallery “Sreda” (Cube.Moscow), Moscow, Russia</p>
@@ -45,7 +39,6 @@ export default function About() {
                 <p>2020 “Art Without Restrictions”, Central Park, Uman, Ukraine</p>
                 <p>2020 “Her Majesty Woman”, gallery “Underground”, Odesa, Ukraine</p>
                 <p>2019 “Mother Africa”, Museum of Western & Eastern Art, Odesa, Ukraine</p>
-                <p>2018 “Exhibition of teachers and students of the UDPU”, “Stara Uman”, Uman, Ukraine</p>
             </div>
 
         </div>
