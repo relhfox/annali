@@ -15,6 +15,15 @@ export default function About() {
             </div>
 
             <div className='currpage__head'>
+                <h2>EDUCATION</h2>
+            </div>
+
+            <div className='currpage__body exhibit'>
+                <p>2023 Contemporary Art, Institute "BAZA", remote section</p>
+                <p>2018 BA/MA Art & Graphics Faculty, Uman State University, Ukraine</p>
+            </div>
+
+            <div className='currpage__head'>
                 <h2>ONE PERSON EXHIBITIONS</h2>
             </div>
 
@@ -39,6 +48,7 @@ export default function About() {
                 <p>2020 “Art Without Restrictions”, Central Park, Uman, Ukraine</p>
                 <p>2020 “Her Majesty Woman”, gallery “Underground”, Odesa, Ukraine</p>
                 <p>2019 “Mother Africa”, Museum of Western & Eastern Art, Odesa, Ukraine</p>
+                <p>2018 “Exhibition of teachers and students of the UDPU”, “Stara Uman”, Uman, Ukraine</p>
             </div>
 
         </div>
