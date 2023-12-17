@@ -5,10 +5,41 @@ import accom from '../img/aworks/accom.jpg'
 import edge from '../img/aworks/edge.jpg'
 import edphoto from '../img/aworks/edphoto.jpg'
 import nonact from '../img/aworks/nonact.jpg'
+import reenac from '../img/aworks/reenac.jpg'
+import ahalf from '../img/aworks/ahalf.jpg'
+import tensor from '../img/aworks/tensor.jpg'
 
 export default function Artworks() {
     return (
         <div className='artworks__row'>
+
+            <div className='artworks__column'>
+
+                <div className='currpage__head'>
+                    <Link to="/ten_sorries"><img src={tensor} alt="10 sorries by Anna Li" /></Link>
+                </div>
+
+                <div className='currpage__body_art'>
+                    <h2>2023</h2>
+                    <p>10 sorries</p>
+                    <p>Video performance</p>
+                </div>
+
+            </div>
+
+            <div className='artworks__column'>
+
+                <div className='currpage__head'>
+                    <Link to="/and_a_half"><img src={ahalf} alt="16 and a half by Anna Li" /></Link>
+                </div>
+
+                <div className='currpage__body_art'>
+                    <h2>2023</h2>
+                    <p>16 and a half</p>
+                    <p>Video performances</p>
+                </div>
+
+            </div>
 
             <div className='artworks__column'>
 
@@ -20,6 +51,20 @@ export default function Artworks() {
                     <h2>2022</h2>
                     <p>Non-action</p>
                     <p>Video performance</p>
+                </div>
+
+            </div>
+
+            <div className='artworks__column'>
+
+                <div className='currpage__head'>
+                    <Link to="/re_enactment"><img src={reenac} alt="RE-enactment by Anna Li" /></Link>
+                </div>
+
+                <div className='currpage__body_art'>
+                    <h2>2022</h2>
+                    <p>RE-enactment</p>
+                    <p>Oil on canvas</p>
                 </div>
 
             </div>

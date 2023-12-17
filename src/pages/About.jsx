@@ -9,9 +9,9 @@ export default function About() {
             </div>
 
             <div className='currpage__body statement'>
-                <p>My art practice is leaded by my life experience of being a disabled person in Ukraine. By shedding light on the lives of persons with health issues, I want to bring disabled people into the art world from which we’ve always been excluded.</p>
-                <p>Using tools and strategies related to oil painting, digital media and commercial photography I strive to explore the role of stereotypes in the perception of the beauty and sexuality of people with disability. I am looking for the boundaries beyond which we start to be sexually attractive to each other. By creating a conflict between imperfection and attractiveness, I focus on the flaws of the bodies, but place them in an erotic context through angles, colors and environment.</p>
-                <p>I work with the oil painting and photography. Working with a photographer, I act as a model using my own body as a medium to express my idea.</p>
+                <p>My art practice is based on my experience of being a wheelchair user in post-Soviet society as well as in the UK. By shedding light on the life of a person with a disability, I aim to contribute to the development of inclusivity through the art world.</p>
+                <p>My work is autobiographical and inseparable from my everyday life. I use my own body and events from my life as materials for researches. I look for the boundaries beyond which the experience of another person's disability ceases to be something repulsive and begins to seem interesting and appealing.</p>
+                <p>Working with tools and strategies related to oil painting, digital media and commercial photography, I explore the role of stereotypes and prejudice in the perception of people with disabilities. In particular, I am interested in how societal and cultural factors influence this perception.</p>
             </div>
 
             <div className='currpage__head'>
@@ -19,8 +19,9 @@ export default function About() {
             </div>
 
             <div className='currpage__body exhibit'>
-                <p>2023 Contemporary Art, Institute "BAZA", remote section</p>
-                <p>2018 BA/MA Art & Graphics Faculty, Uman State University, Ukraine</p>
+                <p>2023 - in progress, BA Fine Art, Nottingham Trent University</p>
+                <p>2021 - 2023 Certificate program in Contemporary Art, Institute “BAZA”, remote section</p>
+                <p>2012 - 2018 BA&MA Art & Graphics, Uman State Pedagogical University, Ukraine</p>
             </div>
 
             <div className='currpage__head'>
@@ -48,7 +49,7 @@ export default function About() {
                 <p>2020 “Art Without Restrictions”, Central Park, Uman, Ukraine</p>
                 <p>2020 “Her Majesty Woman”, gallery “Underground”, Odesa, Ukraine</p>
                 <p>2019 “Mother Africa”, Museum of Western & Eastern Art, Odesa, Ukraine</p>
-                <p>2018 “Exhibition of teachers and students of the UDPU”, “Stara Uman”, Uman, Ukraine</p>
+                <p>2018 “Works of tutors and students of USPU”, “Stara Uman”, Uman, Ukraine</p>
             </div>
 
         </div>

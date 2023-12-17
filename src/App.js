@@ -14,6 +14,9 @@ import Mother from './pages/projects/Mother'
 import Accom from './pages/projects/Accom'
 import Edphoto from './pages/projects/Edphoto'
 import Nonact from './pages/projects/Nonact'
+import Reenac from './pages/projects/Reenac'
+import Andahalf from './pages/projects/Andahalf'
+import Tensorr from './pages/projects/Tensorr'
 
 function App() {
 
@@ -38,7 +41,10 @@ function App() {
                             <Route path="/about" element={<About/>} />
                             <Route path="/press" element={<Press/>} />
                             <Route path="/contact" element={<Contact/>} />
+                            <Route path="/ten_sorries" element={<Tensorr/>} />
+                            <Route path="/and_a_half" element={<Andahalf/>} />
                             <Route path="/non_action" element={<Nonact/>} />
+                            <Route path="/re_enactment" element={<Reenac/>} />
                             <Route path="/the_edge_of_photo" element={<Edphoto/>} />
                             <Route path="/the_edge_of" element={<Edge/>} />
                             <Route path="/accomplices" element={<Accom/>} />
@@ -54,7 +60,7 @@ function App() {
             <Footer/>
 
         </BrowserRouter>
-    );
+    )
 }
 
-export default App;
+export default App
