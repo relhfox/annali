@@ -1,4 +1,3 @@
-import React from 'react'
 import { Carousel } from 'react-carousel-minimal'
 
 export default function Mother() {

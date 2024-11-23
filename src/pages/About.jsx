@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function About() {
     return (
         <div className='currpage__row'>
@@ -19,9 +17,9 @@ export default function About() {
             </div>
 
             <div className='currpage__body exhibit'>
-                <p>2023 - in progress, BA Fine Art, Nottingham Trent University</p>
-                <p>2021 - 2023 Certificate program in Contemporary Art, Institute “BAZA”, remote section</p>
-                <p>2012 - 2018 BA&MA Art & Graphics, Uman State Pedagogical University, Ukraine</p>
+                <p>2023 — in progress, BA Fine Art, Nottingham Trent University</p>
+                <p>2021 — 2023 Certificate program in Contemporary Art, Institute “BAZA”</p>
+                <p>2012 — 2018 BA, MA Art & Graphics, Uman State Pedagogical University, Ukraine</p>
             </div>
 
             <div className='currpage__head'>
@@ -40,18 +38,26 @@ export default function About() {
             </div>
 
             <div className='currpage__body exhibit'>
+                <p>2024 “Serious Leisure”, Surface Gallery, Nottingham, UK</p>
                 <p>2023 “Taking Over The High Street”, Gallery Live, Milton Keynes, UK</p>
                 <p>2023 “Peace Hope Ukraine”, MK Central Library, Milton Keynes, UK</p>
                 <p>2022 “The New Artist III”, Boomer Gallery (Tower Bridge), London, UK</p>
                 <p>2022 “Handmaid’s Cracked Mirror”, Art Center “Zverevskiy”, Moscow, Russia</p>
                 <p>2021 “Accomplices”, gallery “Sreda” (Cube.Moscow), Moscow, Russia</p>
                 <p>2021 “Art Without Restrictions”, Municipal Art Gallery, Kiev, Ukraine</p>
-                <p>2020 “Art Without Restrictions”, Central Park, Uman, Ukraine</p>
                 <p>2020 “Her Majesty Woman”, gallery “Underground”, Odesa, Ukraine</p>
                 <p>2019 “Mother Africa”, Museum of Western & Eastern Art, Odesa, Ukraine</p>
                 <p>2018 “Works of tutors and students of USPU”, “Stara Uman”, Uman, Ukraine</p>
             </div>
 
+            <div className='currpage__head'>
+                <h2>RESIDENCIES</h2>
+            </div>
+
+            <div className='currpage__body exhibit'>
+                <p>2024 “The Summer Project”, The Cut Arts Centre, Halesworth, UK</p>
+                <p>2020 “Art Without Restrictions”, Uman, Ukraine</p>
+            </div>
         </div>
     )
 }

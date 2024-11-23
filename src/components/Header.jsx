@@ -1,8 +1,8 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '../img/logo.png'
+import '../styles/Header.css'
 
-export default function Header({active, clickFunc}) {
+export default function Header({ active, clickFunc }) {
 
     return (
         <header className='header'>
@@ -10,11 +10,13 @@ export default function Header({active, clickFunc}) {
                 <div className='header__row'>
 
                     <div className='header__logo'>
-                        <Link to="/"><img src={logo} alt="Anna Li Art" /></Link>
+                        <Link to="/">
+                            <img src={logo} alt="Anna Li Art"/>
+                        </Link>
                     </div>
 
                     <div className={active ? 'header__burger show' : 'header__burger'} onClick={clickFunc}>
-                        <span></span>
+                        <span />
                     </div>
 
                     <div className={active ? 'header__nav show' : 'header__nav'}>

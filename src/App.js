@@ -20,11 +20,18 @@ import Tensorr from './pages/projects/Tensorr'
 
 function App() {
 
-    const [menuActive, setMenuActive] = useState(false)
+    const [ menuActive, setMenuActive ] = useState(false)
 
     function burgerClick() {
         setMenuActive(!menuActive)
         document.body.classList.toggle('show')
+    }
+
+    const styles = {
+        display: 'flex',
+        justifyContent: 'center',
+        fontFamily: '"Quicksand", sans-serif',
+        fontSize: '20px'
     }
 
     return (
@@ -32,32 +39,32 @@ function App() {
 
             <Header active={menuActive} clickFunc={burgerClick}/>
 
-            <div className='main'>
-                <div className='currpage'>
+            <main style={{flex: '1 1 auto'}}>
+                <div style={styles}>
                     <div className='container'>
 
                         <Routes>
-                            <Route path="/" element={<Artworks/>} />
-                            <Route path="/about" element={<About/>} />
-                            <Route path="/press" element={<Press/>} />
-                            <Route path="/contact" element={<Contact/>} />
-                            <Route path="/ten_sorries" element={<Tensorr/>} />
-                            <Route path="/and_a_half" element={<Andahalf/>} />
-                            <Route path="/non_action" element={<Nonact/>} />
-                            <Route path="/re_enactment" element={<Reenac/>} />
-                            <Route path="/the_edge_of_photo" element={<Edphoto/>} />
-                            <Route path="/the_edge_of" element={<Edge/>} />
-                            <Route path="/accomplices" element={<Accom/>} />
-                            <Route path="/mother_africa" element={<Mother/>} />
-                            <Route path="/music_of_the_sea" element={<Musea/>} />
-                            <Route path="*" element={<Error/>} />
+                            <Route path="/" element={<Artworks />}/>
+                            <Route path="/about" element={<About />}/>
+                            <Route path="/press" element={<Press />}/>
+                            <Route path="/contact" element={<Contact />}/>
+                            <Route path="/ten_sorries" element={<Tensorr />}/>
+                            <Route path="/and_a_half" element={<Andahalf />}/>
+                            <Route path="/non_action" element={<Nonact />}/>
+                            <Route path="/re_enactment" element={<Reenac />}/>
+                            <Route path="/the_edge_of_photo" element={<Edphoto />}/>
+                            <Route path="/the_edge_of" element={<Edge />}/>
+                            <Route path="/accomplices" element={<Accom />}/>
+                            <Route path="/mother_africa" element={<Mother />}/>
+                            <Route path="/music_of_the_sea" element={<Musea />}/>
+                            <Route path="*" element={<Error />}/>
                         </Routes>
 
                     </div>
                 </div>
-            </div>
+            </main>
 
-            <Footer/>
+            <Footer />
 
         </BrowserRouter>
     )

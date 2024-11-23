@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
-import musea from '../img/aworks/musea.jpg'
-import mother from '../img/aworks/mother.jpg'
+import Block from '../components/Block'
 import accom from '../img/aworks/accom.jpg'
 import edge from '../img/aworks/edge.jpg'
 import edphoto from '../img/aworks/edphoto.jpg'
@@ -10,135 +8,87 @@ import ahalf from '../img/aworks/ahalf.jpg'
 import tensor from '../img/aworks/tensor.jpg'
 
 export default function Artworks() {
+
+    const styles = {
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        maxWidth: '1000px'
+    }
+
     return (
-        <div className='artworks__row'>
+        <div style={styles}>
 
-            <div className='artworks__column'>
+            <Block
+                link='/ten_sorries'
+                year='2023'
+                title='10 sorries'
+                lineOne='Video performance'
+                lineTwo=''
+                img={tensor}
+                alt='10 sorries by Anna Li'
+            />
 
-                <div className='currpage__head'>
-                    <Link to="/ten_sorries"><img src={tensor} alt="10 sorries by Anna Li" /></Link>
-                </div>
+            <Block
+                link='/and_a_half'
+                year='2023'
+                title='16 and a half'
+                lineOne='Video performance series'
+                lineTwo=''
+                img={ahalf}
+                alt='16 and a half by Anna Li'
+            />
 
-                <div className='currpage__body_art'>
-                    <h2>2023</h2>
-                    <p>10 sorries</p>
-                    <p>Video performance</p>
-                </div>
+            <Block
+                link='/non_action'
+                year='2022'
+                title='Non-action'
+                lineOne='Video performance'
+                lineTwo=''
+                img={nonact}
+                alt='Non-action by Anna Li'
+            />
 
-            </div>
+            <Block
+                link='/re_enactment'
+                year='2022'
+                title='RE-enactment'
+                lineOne='Oil on canvas'
+                lineTwo=''
+                img={reenac}
+                alt='RE-enactment by Anna Li'
+            />
 
-            <div className='artworks__column'>
+            <Block
+                link='/the_edge_of_photo'
+                year='2021'
+                title='The Edge of Sexuality, Photo'
+                lineOne='Model & author: Anna Li'
+                lineTwo='Photographer & co-author: Vitaly Krushinsky'
+                img={edphoto}
+                alt='The Edge of Sexuality by Anna Li'
+            />
 
-                <div className='currpage__head'>
-                    <Link to="/and_a_half"><img src={ahalf} alt="16 and a half by Anna Li" /></Link>
-                </div>
+            <Block
+                link='/the_edge_of'
+                year='2021'
+                title='The Edge of Sexuality'
+                lineOne='Oil on canvas'
+                lineTwo=''
+                img={edge}
+                alt='The Edge of Sexuality by Anna Li'
+            />
 
-                <div className='currpage__body_art'>
-                    <h2>2023</h2>
-                    <p>16 and a half</p>
-                    <p>Video performances</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/non_action"><img src={nonact} alt="Non-action by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2022</h2>
-                    <p>Non-action</p>
-                    <p>Video performance</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/re_enactment"><img src={reenac} alt="RE-enactment by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2022</h2>
-                    <p>RE-enactment</p>
-                    <p>Oil on canvas</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/the_edge_of_photo"><img src={edphoto} alt="The Edge of Sexuality by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2021</h2>
-                    <p>The Edge of Sexuality, Photo</p>
-                    <p>Model & author: Anna Li</p>
-                    <p>Photographer & co-author: Vitaly Krushinsky</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/the_edge_of"><img src={edge} alt="The Edge of Sexuality by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2021</h2>
-                    <p>The Edge of Sexuality</p>
-                    <p>Oil on canvas</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/accomplices"><img src={accom} alt="Accomplices by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2021</h2>
-                    <p>Oil on canvas, for Accomplices project</p>
-                    <p>Sreda gallery, Cube.Moscow, Russia</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/mother_africa"><img src={mother} alt="Mother Africa by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2019</h2>
-                    <p>Oil on canvas, for Mother Africa project</p>
-                    <p>Museum of Western & Eastern Art, Odesa, Ukraine</p>
-                </div>
-
-            </div>
-
-            <div className='artworks__column'>
-
-                <div className='currpage__head'>
-                    <Link to="/music_of_the_sea"><img src={musea} alt="Music of the Sea by Anna Li" /></Link>
-                </div>
-
-                <div className='currpage__body_art'>
-                    <h2>2019</h2>
-                    <p>Music of the Sea</p>
-                    <p>Oil on canvas</p>
-                </div>
-
-            </div>
+            <Block
+                link='/accomplices'
+                year='2021'
+                title='For Accomplices project'
+                lineOne='Oil on canvas'
+                lineTwo='Sreda gallery, Cube.Moscow'
+                img={accom}
+                alt='Accomplices by Anna Li'
+            />
 
         </div>
     )

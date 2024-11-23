@@ -1,4 +1,3 @@
-
 const Tensorr = () => {
     return (
         <div className='currpage__row'>
@@ -10,7 +9,7 @@ const Tensorr = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe>
+            />
 
             <div className='currpage__body statement nonaction'>
                 <p>The performance “10 sorries” involved the direct participation of the people passing by. I was standing in the narrow street on my wheelchair partially blocking the passage to the street. Each person had to pass sideways through the small space between me and other obstacles.</p>

@@ -1,0 +1,111 @@
+.header__row {
+    display: flex;
+    padding: 20px 0;
+    align-items: flex-end;
+}
+
+.header__logo {
+    flex: 0 0 101px;
+    padding: 0 0 0 15px;
+    position: relative;
+    z-index: 5;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    font-size: 30px;
+    font-family: 'Nothing You Could Do', cursive;
+    z-index: 4;
+}
+
+.nav a {
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    text-decoration: wavy underline;
+    text-decoration-thickness: 1px;
+}
+
+.header__list {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    body.show {
+        overflow: hidden;
+    }
+    .header__row {
+        justify-content: space-between;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin: 0 15px 0 0;
+        z-index: 5;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #000;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        position: absolute;
+        background-color: #000;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger:before {
+        top: 0;
+    }
+    .header__burger:after {
+        bottom: 0;
+    }
+    .header__burger.show span {
+        transform: scale(0);
+    }
+    .header__burger.show:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.show:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__nav {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #EAEAEA;
+        padding: 200px 100px;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+    }
+    .header__nav.show {
+        top: 0;
+    }
+    .header__list {
+        display: block;
+    }
+    .header__list li {
+        margin: 0 0 40px 0;
+    }
+}

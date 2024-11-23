@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Nonact = () => {
     return (
         <div className='currpage__row'>
@@ -11,7 +9,7 @@ const Nonact = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe>
+            />
 
             <div className='currpage__body statement nonaction'>
                 <p>“Non-action” is a video performance inspired by the video and installation artist Vito Acconci (1940 – 2017). Thinking about his foundational performances, I was trying to determine my own language of working with a camera and creating the provocation similar to his works. It was important for me in terms of my disability and impossibility to move. Therefore I decided not to move at all and use only my glance and the background sound to make my statement.</p>
