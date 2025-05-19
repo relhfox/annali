@@ -15,8 +15,7 @@ export default function Footer() {
             <div style={styles}>
                 <div className='footer_links'>
                     2025{' '}
-                    <a href='https://github.com/relhfox' target="_blank" rel="noreferrer" style={{margin: '0 5px'}}>Dev</a>
-                    <a href='https://reactjs.org/' target="_blank" rel="noreferrer" style={{margin: '0 5px'}}>React</a>
+                    <a href='https://github.com/relhfox' target="_blank" rel="noreferrer" style={{margin: '0 5px'}}>dev</a>
                 </div>
             </div>
         </footer>

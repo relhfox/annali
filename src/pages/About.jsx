@@ -7,9 +7,9 @@ export default function About() {
             </div>
 
             <div className='currpage__body statement'>
-                <p>My art practice is based on my experience of being a wheelchair user in post-Soviet society as well as in the UK. By shedding light on the life of a person with a disability, I aim to contribute to the development of inclusivity through the art world.</p>
-                <p>My work is autobiographical and inseparable from my everyday life. I use my own body and events from my life as materials for researches. I look for the boundaries beyond which the experience of another person's disability ceases to be something repulsive and begins to seem interesting and appealing.</p>
-                <p>Working with tools and strategies related to oil painting, digital media and commercial photography, I explore the role of stereotypes and prejudice in the perception of people with disabilities. In particular, I am interested in how societal and cultural factors influence this perception.</p>
+                <p>I’m an artist from Odesa, Ukraine, living in the UK. My practice explores the aesthetics and politics of disabled embodiment, drawing on my lived experience as a female wheelchair user and my background in both academic painting and post-Soviet Ukrainian conceptualism.</p>
+                <p>I work across oil painting, video performance, digital media, and social interventions. My work often begins with my own body as a site of inquiry, resistance, and aesthetic experimentation. I position disability as a cultural lens and generative force that reshapes how we imagine beauty, intimacy, and agency.</p>
+                <p>Visually and conceptually, I operate at the intersection of conceptual art, relational aesthetics, and figurative painting. I see myself in dialogue with the legacy of Odesa conceptualism, particularly its strategies of irony, language play, and critical distance. However, I diverge by foregrounding the non-normative body as an expressive, political subject, bringing emotional exposure and vulnerability into what was once largely cerebral.</p>
             </div>
 
             <div className='currpage__head'>
@@ -38,6 +38,7 @@ export default function About() {
             </div>
 
             <div className='currpage__body exhibit'>
+                <p>2024 “Silver Surface”, Surface Gallery, Nottingham, UK</p>
                 <p>2024 “Serious Leisure”, Surface Gallery, Nottingham, UK</p>
                 <p>2023 “Taking Over The High Street”, Gallery Live, Milton Keynes, UK</p>
                 <p>2023 “Peace Hope Ukraine”, MK Central Library, Milton Keynes, UK</p>

@@ -16,9 +16,9 @@ const Andahalf = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             />
-            
+
             <div style={{textAlign: 'center'}} className='currpage__head nonaction'>
-                <h2>Edinburgh, Royal Mile, 20th September 2024</h2>
+                <h2>Edinburgh, Royal Mile, 17th September 2024</h2>
             </div>
             <br /><br />
 
